@@ -84,3 +84,58 @@
 .mouth:hover {
     height: 45px;
 }
+
+.neck {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+
+}
+
+.hbody {
+    height: 300px;
+    width: 250px;
+    background-color: green;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+
+
+}
+
+.hand {
+    height: 60px;
+    width: 350px;
+    background: pink;
+    position: absolute;
+    top: 150px;
+    z-index: -1;
+}
+
+
+.l-hand {
+    left: -274px;
+    transform: rotate(-45deg);
+
+
+
+
+}
+
+.r-hand {
+    right: -274px;
+    transform: rotate(45deg);
+}
+
+.leg {
+    height: 350px;
+    width: 70px;
+    background: pink;
+    position: absolute;
+    top: 300px;
+
+}
+
+.r-leg {
+    right: 0;
+}
